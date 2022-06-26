@@ -25,7 +25,13 @@ table {
     border-spacing: 9px 15px;
 
 }
-
+h1{
+    margin-top: auto;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(167, 31, 61), rgb(29, 58, 189));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 th {
     padding: 10px;
     text-decoration: underline;
@@ -61,8 +67,9 @@ button {
 
 
 h2 {
+    font-size: 30px;
     text-align: left;
-    margin-left: 400px;
+    margin-left: 675px;
 }
 
 #store {
@@ -104,7 +111,6 @@ td input {
     border-radius: 20px;
     color: ghostwhite;
     font-size: medium;
-
     border: 5px solid wheat;
     border-left: 50px;
     border-right: 50px;
@@ -119,36 +125,21 @@ td input {
 }
 
 #name {
-    background-color: rgb(0, 255, 234);
+    background-color: cyan;
     font-family: cursive;
 }
 
 #balance {
-    width: 40%;
-    background-color: violet;
+    width: 30%;
+    background-color: rgb(126, 101, 216);
 }
 
-#int1,
-#int2,
-#int3,
-#int4,
-#int5 {
-    background-color: lightblue;
-}
-
-#t1,
-#t2,
-#t3,
-#t4,
-#t5 {
+#t1 {
     background-color: mediumspringgreen;
 }
+.clear{
 
-#bal1,
-#bal2,
-#bal3,
-#bal4,
-#bal5 {
-    background-color: lightblue;
-
+}
+#sta{
+    color: chartreuse;
 }
