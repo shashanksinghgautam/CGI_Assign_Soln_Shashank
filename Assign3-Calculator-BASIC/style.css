@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to right, rgb(15, 78, 151),  rgb(102, 170, 24));
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Amazing-Abstract-Wallpaper-HD-1080p.jpg);
+}
+form{
+    
+    margin-top: 25vh;
+    text-align: center;
+    padding: 15px;
+    width: 610px;
+    height: 410px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgb(66, 128, 136),  rgb(137, 67, 139));
+    border-radius: 20px;
+    
+}
+#app{
+ color: greenyellow;
+}
+#result{
+    margin-left: 48px;
+}
+
+button{
+    padding: 7px;
+    background-color: rgb(255, 0, 234);
+    border-radius: 10px;
+    border-width: 8px;
+    border-color: rgb(255, 0, 234);
+    font-size: 15px;
+    font-weight: bolder;
+    color: linen;
+}
+
+input:hover{
+    background-color: cyan;
+
+}
+.but{
+    margin-top: -140px;
+    
+}
+.formleft{
+    padding-right: 200px;
+}
+.formleft label span{
+    background: -webkit-linear-gradient(rgb(212, 13, 179), rgb(29, 58, 189));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+#res,#num1,#num2{
+    padding-top: 1px;
+    height: 27px;
+    font-size: 19px;
+    color: red;
+    border: 5px solid rgb(127, 182, 102);
+    border-radius: 5px;
+}
+
+#status{
+    position: relative;
+    background: -webkit-linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  background-clip: n;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#amiss{
+    color: red;
+    font-size: 20px;
+    margin-top: 96px;
+    margin-left: 835px;
+}
+
+#bmiss{
+    color: red;
+    font-size: 20px;
+    margin-top: -180px;
+    margin-left: 935px;
+}
