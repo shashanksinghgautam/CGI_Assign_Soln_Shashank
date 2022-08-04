@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <form>
+            <span id="app"><b>CALCULATOR APP</b></span> <br><br>
+            <div class="formleft">
+
+
+                <label for="num1"> <span>Number 1 :</span> </label>
+                <input type="number" id="num1" value="" placeholder="Enter a number"><br><br>
+                
+                <label for="num2"> <span> Number 2 :</span> </label>
+                <input type="number" id="num2" value="" placeholder="Enter a number"><br><br>
+
+                <label for="res"> <span id="result"> Result :</span> </label>
+                <input type="number" id="res" value="" placeholder="NA" disabled><br><br>
+            </div>
+           
+        </form>
+       
+        <div class="but">
+            <button onclick="add()">Add</button>
+            <button onclick="sub()">Subtract</button>
+            <button onclick="mult()">Multiply</button>
+            <button onclick="divs()">Divide</button>
+
+            <p>
+                <h2 id="status"> <span id="val">
+                        < Status>
+                    </span></h2>
+            </p>
+
+        </div>
+        <span id="amiss"></span>
+        <span id="bmiss"></span>
+    </center>
+   
+</body>
+<script>
+
+    function add() {
+        var a = (document.getElementById('num1').value);
+        var b = (document.getElementById('num2').value);
+        console.log(a);
+        if (a=="") {
+            document.getElementById('amiss').innerText = " *Required Field A";
+            
+        } 
+        else if(b==""){
+            document.getElementById('bmiss').innerText = " *Required Field B";
+        }
+        else {
+            a=Number(a);
+            b=Number(b);
+            document.getElementById('res').value = a + b;
+            document.getElementById('val').innerText = "Addition Performed";
+        }
+    }
+
+    function sub() {
+        var a = (document.getElementById('num1').value);
+        var b = (document.getElementById('num2').value);
+        
+        if (a=="") {
+            document.getElementById('amiss').innerText = " *Required Field";
+            
+        } 
+        else if(b==""){
+            document.getElementById('bmiss').innerText = " *Required Field";
+        }
+        else {
+            a=Number(a);
+            b=Number(b);
+            document.getElementById('res').value = a - b;
+            document.getElementById('val').innerText = "Substraction Performed";
+        }
+    }
+
+    function mult() {
+        var a = (document.getElementById('num1').value);
+        var b = (document.getElementById('num2').value);
+        
+        if (a=="") {
+            document.getElementById('amiss').innerText = " *Required Field";
+            
+        } 
+        else if(b==""){
+            document.getElementById('bmiss').innerText = " *Required Field";
+        }
+        else {
+            a=Number(a);
+            b=Number(b);
+            document.getElementById('res').value = a * b;
+            document.getElementById('val').innerText = "Multiplication Performed";
+        }
+    }
+
+    function divs() {
+        var a = (document.getElementById('num1').value);
+        var b = (document.getElementById('num2').value);
+        
+        if (a=="") {
+            document.getElementById('amiss').innerText = " *Required Field";
+            
+        } 
+        else if(b==""){
+            document.getElementById('bmiss').innerText = " *Required Field";
+        }
+        else {
+            a=Number(a);
+            b=Number(b);
+            document.getElementById('res').value = a / b;
+            document.getElementById('val').innerText = "Division Performed";
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body
+    style="background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Amazing-Abstract-Wallpaper-HD-1080p.jpg);">
+
+    <div style=" width: 94%; height:600px ">
+        <h1>Product Detail Table</h1>
+        <table width="90%" border="1">
+
+            <tr>
+                <th style="background-color:cyan;">Details</th>
+                <th id="balance">Values</th>
+                <th style="background-color: mediumspringgreen;">Product 1</th>
+                <th style="background-color: mediumspringgreen;">Product 2</th>
+                <th style="background-color: mediumspringgreen;">Product 3</th>
+                <th style="background-color: mediumspringgreen;">Product 4</th>
+                <th style="background-color: mediumspringgreen;">Product 5</th>
+
+            </tr>
+
+            <tr>
+                <td id="name">PID</td>
+                <td id="balance"><input id="r" class="balances" type="text"></td>
+                <td id="t1"><input class="clear" id="int10" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int20" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int30" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int40" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int50" type="text" disabled></td>
+            </tr>
+
+            <tr>
+                <td id="name">PName</td>
+                <td id="balance"><input id="s" class="balances" type="text"></td>
+                <td id="t1"><input class="clear" id="int11" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int21" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int31" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int41" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int51" type="text" disabled></td>
+            </tr>
+
+            <tr>
+                <td id="name">Price</td>
+                <td id="balance"><input id="t" class="balances" type="text"></td>
+                <td id="t1"><input class="clear" id="int12" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int22" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int32" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int42" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int52" type="text" disabled></td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td id="name">Quantity</td>
+                <td id="balance"><input id="u" class="balances" type="text"></td>
+                <td id="t1"><input class="clear" id="int13" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int23" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int33" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int43" type="text" disabled></td>
+                <td id="t1"><input class="clear" id="int53" type="text" disabled></td>
+            </tr>
+
+        </table>
+        <button id="store" onclick="store()"><b>Store</b></button>
+        <button id="reset" onclick="res()"><b>Reset</b></button>
+        <button id="show" onclick="show()"><b>Show All</b></button>
+        <button id="del" onclick="del()"><b>Delete All</b></button>
+
+        <h2>Status : <span id="sta"></span></h2>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

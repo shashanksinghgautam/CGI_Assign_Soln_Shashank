@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+nav div {
+    position: absolute;
+    border: 2px solid gray;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    margin-top: 30px;
+    gap: 30px;
+    border-radius: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-right: 30px;
+
+}
+
+a:active {
+    color: blue;
+}
+
+nav {
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%
+}
+
+
+.cont {
+    background-color: whitesmoke;
+    padding: 80px 0px 80px 290px;
+    margin-top: 120px;
+}
+
+#part1 {
+    font-size: 18x;
+    font-family: Poppins, sans-serif;
+    color: #333;
+
+}
+
+#part2 {
+    float: right;
+    margin-right: 350px;
+    font-family: Lato, sans-serif;
+}
+
+#part3 {
+
+    font-family: Lato, sans-serif;
+}
+
+#peack {
+    width: 475px;
+    height: 320px;
+    margin-top: 70px;
+
+}
+
+.contain {
+    display: flex;
+    margin-left: 290px;
+    gap: 86px;
+    margin-top: 70px;
+}
+
+.desc {
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    color: #333;
+    text-decoration: underline;
+    letter-spacing: 4px;
+
+}
+
+.image1 {
+    width: 430px;
+
+}
+
+.know {
+
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+
+}
+
+.res {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+#peack:hover {
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+    transform: scale(1.16);
+
+}
+
+.res img {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+#pea .res .des {
+    padding-left: 40px;
+    position: relative;
+    bottom: 30%;
+    left: 5%;
+}
+
+.res .des h1 {
+    font-size: 48px;
+
+
+}
+
+.res .des button {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 60px;
+    border: 4px solid aqua;
+    width: 250px;
+    color: aqua;
+    font-size: 25px;
+    font-family: Lato, sans-serif;
+}
